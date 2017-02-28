@@ -1,0 +1,13 @@
+div {
+  float: right;
+  margin: 20px;
+  color: tomato;
+}
+
+#phone {
+  margin-right: 10px;
+}
+
+#email {
+  margin-right: 10px;
+}
