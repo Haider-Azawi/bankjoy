@@ -1,13 +1,8 @@
-div {
-  float: right;
-  margin: 20px;
-  color: tomato;
+.contact {
+  text-align: right;
+  padding: 2em;
 }
 
-#phone {
-  margin-right: 10px;
-}
-
-#email {
-  margin-right: 10px;
+.contact span {
+  margin: 0.5em;
 }
