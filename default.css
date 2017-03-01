@@ -6,3 +6,10 @@
 .contact span {
   margin: 0.5em;
 }
+
+#logo > img {
+  width: 240px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
