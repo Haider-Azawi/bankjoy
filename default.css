@@ -19,6 +19,7 @@ body {
     linear-gradient(rgba(81, 112, 221, 0.6), rgba(81, 112, 221, 0.6)),
     url(https://www.bankjoy.com/assets/images/backgrounds/background.jpg);
   font-family: sourcesanspro;
+  position: relative;
 }
 
 #first {
@@ -49,30 +50,55 @@ body {
   src: url(fonts/SourceSansPro-ExtraLight.otf);
 }
 
+.shadow-right {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  top: 0;
+  right: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 40px 50px 200px black;
+  z-index: 30;
+}
+
+.shadow-left {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  top: 0;
+  left: 320%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 1px 300px black;
+  z-index: 30;
+}
+
 .phones {
   display: inline-block;
+  position: relative;
   background: none;
   width: 90px;
   height: 70%;
-  float: left;
-  margin: 2px;
 }
 
 #phone-center {
-  position: relative;
-  left: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 34%;
   z-index: 10;
 }
 
 #phone-left {
-  position: relative;
-  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  right: -5%;
+  top: 20px;
   z-index: -10;
 }
 
 #phone-right {
-  position: relative;
-  left: 25%;
-  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 45%;
+  top: 20px;
   z-index: -10;
 }
